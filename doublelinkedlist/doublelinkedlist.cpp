@@ -29,3 +29,8 @@ public:
 Doublelinkedlist::Doublelinkedlist() {
 	START = NULL;
 }
+
+void Doublelinkedlist::addNote() {
+	int nim;
+
+}
