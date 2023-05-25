@@ -79,5 +79,9 @@ void Doublelinkedlist::addNote() {
 			}
 			return (*current != NULL);
 		}
+
+		bool Doublelinkedlist::deleteNode(int rollNo) {
+
+		}
 	}
 }
