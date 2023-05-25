@@ -17,9 +17,9 @@ public:
 
 	Doublelinkedlist();
 	void addNote();
-	boo1 search(int rollNo, Node** previous, Node** current);
-	boo1 deleteNode(int rollNo);
-	boo1 listEmpty();
+	bool search(int rollNo, Node** previous, Node** current);
+	bool deleteNode(int rollNo);
+	bool listEmpty();
 	void ascending();
 	void descending();	
 	void hapus();
@@ -32,5 +32,7 @@ Doublelinkedlist::Doublelinkedlist() {
 
 void Doublelinkedlist::addNote() {
 	int nim;
+	string nm;
+	cout << "\nEnter the roll number  of the student: ";
 
 }
