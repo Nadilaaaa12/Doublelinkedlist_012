@@ -13,5 +13,13 @@ public:
 class Doublelinkedlist {
 private:
 	Node* START;
+public:
 
+	Doublelinkedlist();
+	void addNote();
+	boo1 search(int rollNo, Node** previous, Node** current);
+	boo1 deleteNode(int rollNo);
+	boo1 listEmpty();
+	void ascending();
+	void descending();	
 };
