@@ -56,4 +56,7 @@ void Doublelinkedlist::addNote() {
 	}
 
 	Node* current = START;
+	while (current->next != NULL && nim > current->next->noMhs) {
+
+	}
 }
