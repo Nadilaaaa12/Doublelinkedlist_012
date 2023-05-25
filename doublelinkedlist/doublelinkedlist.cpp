@@ -72,7 +72,10 @@ void Doublelinkedlist::addNote() {
 
 
 		bool Doublelinkedlist::search(int rollNo, Node * *previous, Node * *current) {
+			*previous = *current = START;
+			while (*current != NULL && rollNo != (*current)->noMhs) {
 
+			}
 		}
 	}
 }
