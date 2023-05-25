@@ -54,4 +54,6 @@ void Doublelinkedlist::addNote() {
 		START = newNode;
 		return;
 	}
+
+	Node* current = START;
 }
