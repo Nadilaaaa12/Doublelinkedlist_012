@@ -69,5 +69,10 @@ void Doublelinkedlist::addNote() {
 		if (current->next != NULL)
 			current->next->prev = newNode;
 		current->next = newNode;
+
+
+		bool Doublelinkedlist::search(int rollNo, Node * *previous, Node * *current) {
+
+		}
 	}
 }
